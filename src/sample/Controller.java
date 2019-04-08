@@ -21,7 +21,7 @@ public class Controller {
     private ArrayList<Artikal> artikli = new ArrayList<>();
     private ObserbavleList<Artikal> observableList = FXCollections.observableArrayList();
 
-    @Override
+    @Override//
     public void initialize(URL location, ResourceBundle resources){
         observableList.setAll(artikli);
         chiceArtikli.setItems(observableList);
